@@ -1,7 +1,7 @@
 {
   "name": "tizen-utils",
   "version": "1.0.0",
-  "description": "Helpfull scripts for Tizen development",
+  "description": "Helpful scripts for Tizen development",
   "license": "MIT",
   "main": "lib/tizen-utils.js",
   "files": [
