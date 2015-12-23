@@ -1,12 +1,15 @@
 {
   "name": "tizen-utils",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "Helpful scripts for Tizen development",
   "license": "MIT",
   "main": "lib/tizen-utils.js",
   "files": [
     "lib"
   ],
+  "bin": {
+    "tizen": "./bin/tizen-utils"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
