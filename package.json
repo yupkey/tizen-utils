@@ -5,7 +5,8 @@
   "license": "MIT",
   "main": "lib/tizen-utils.js",
   "files": [
-    "lib"
+    "lib",
+    "bin"
   ],
   "bin": {
     "tizen": "./bin/tizen"
