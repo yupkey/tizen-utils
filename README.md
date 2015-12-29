@@ -45,3 +45,18 @@ Install widget on target from local directory `pathToWgt`.
 ### uninstall(wgtId)
 
 Uninstall widget from target `wgtId`.
+
+
+### launch(wgtId)
+
+Launch widget `wgtId`.
+
+
+### close(wgtId)
+
+Close widget `wgtId`.
+
+
+### list()
+
+List all installed widgets.
