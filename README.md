@@ -5,6 +5,7 @@ Tizen-utils lets you pack your app and install on target.
 ## install
 
 ```
+$ npm install tizen-utils -g
 $ npm install tizen-utils --save-dev
 ```
 

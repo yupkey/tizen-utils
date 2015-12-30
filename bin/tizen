@@ -7,8 +7,11 @@ var options = process.argv.splice(3, process.argv.length);
 if (tizen[action]) {
     tizen[action](options[0], options[1]);
 } else {
-    console.log('Usage: tizen [action] [arguments]');
+    console.log('Usage: tizen [method] [arguments]');
     console.log('tizen wgt dirPath wgtName');
     console.log('tizen install pathToWgt');
     console.log('tizen uninstall wgtId');
+    console.log('tizen launch wgtId');
+    console.log('tizen close wgtId');
+    console.log('tizen list');
 }
