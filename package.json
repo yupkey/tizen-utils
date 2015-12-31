@@ -1,12 +1,13 @@
 {
   "name": "tizen-utils",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Helpful scripts for Tizen development",
   "license": "MIT",
   "main": "lib/tizen-utils.js",
   "files": [
     "lib",
-    "bin"
+    "bin",
+    "sample"
   ],
   "bin": {
     "tizen": "./bin/tizen"
@@ -27,6 +28,7 @@
   },
   "homepage": "https://github.com/yupkey/tizen-utils#readme",
   "dependencies": {
+    "prompt": "^0.2.14",
     "shelljs": "^0.5.3",
     "zip-dir": "^1.0.0"
   },

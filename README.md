@@ -5,8 +5,7 @@ Tizen-utils lets you pack your app and install on target.
 ## install
 
 ```
-$ npm install tizen-utils -g
-$ npm install tizen-utils --save-dev
+$ npm install tizen-utils
 ```
 
 ## example
@@ -61,3 +60,17 @@ Close widget `wgtId`.
 ### list()
 
 List all installed widgets.
+
+
+### init()
+
+It helps you create a config.xml file.
+
+```
+$ npm install tizen-utils -g
+
+cd /path/to/your/app/
+
+tizen init
+
+```
