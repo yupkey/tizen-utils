@@ -1,17 +1,18 @@
 #!/usr/bin/env node
 
-var tizen = require('../lib/tizen-utils.js');
-var action = process.argv[2];
-var options = process.argv.splice(3, process.argv.length);
+var tizen = require('../lib/tizen-utils');
+var log = require('../lib/log');
+var method = process.argv[2];
+var args = process.argv.slice(3);
 
-if (tizen[action]) {
-    tizen[action](options[0], options[1]);
+if (tizen[method]) {
+    tizen[method](args[0], args[1]);
 } else {
-    console.log('Usage: tizen [method] [arguments]');
-    console.log('tizen wgt dirPath wgtName');
-    console.log('tizen install pathToWgt');
-    console.log('tizen uninstall wgtId');
-    console.log('tizen launch wgtId');
-    console.log('tizen close wgtId');
-    console.log('tizen list');
+    log('Usage: tizen [method] [arguments]');
+    log('tizen wgt dirPath wgtName');
+    log('tizen install pathToWgt');
+    log('tizen uninstall wgtId');
+    log('tizen launch wgtId');
+    log('tizen close wgtId');
+    log('tizen list');
 }
