@@ -16,4 +16,6 @@ if (tizen[method]) {
     log('\t tizen run wgtId - start running app');
     log('\t tizen close wgtId - stop running app');
     log('\t tizen uninstall wgtId - uninstall wgt from target');
+    log('\t tizen debug wgtId - start running app with debug mode');
+    log('\t tizen emulator - open Emulator Manager if installed');
 }

@@ -5,23 +5,12 @@ Tizen-utils lets you pack your app and install on target.
 ## install
 
 ```
-$ npm install tizen-utils --save-dev
+$ npm install tizen-utils -g
 ```
 
 ## example
 
 ```javascript
-var tizen = require('tizen-utils');
-
-tizen.wgt('/path/to/your/app/directory/', 'WgtName.wgt', function (wgt) {
-  tizen.install(wgt);
-});
-
-```
-
-```
-$ npm install tizen-utils -g
-
 $ cd /path/to/your/app/directory/
 
 $ tizen init //create config.xml
@@ -31,6 +20,18 @@ $ tizen list //list all installed apps on target with wgtIds
 $ tizen run wgtId //start running app
 $ tizen close wgtId //stop running app
 $ tizen uninstall wgtId //uninstall wgt from target
+$ tizen debug wgtId //start running app with debug mode
+$ tizen emulator //open Emulator Manager if installed
+```
+
+```javascript
+$ npm install tizen-utils --save-dev
+
+var tizen = require('tizen-utils');
+
+tizen.wgt('/path/to/your/app/directory/', 'WgtName.wgt', function (wgt) {
+  tizen.install(wgt);
+});
 
 ```
 
@@ -76,3 +77,13 @@ Run widget with `wgtId`.
 ### close(wgtId)
 
 Close widget with `wgtId`.
+
+
+### debug(wgtId)
+
+Debug application with `wgtId`.
+
+
+### emulator()
+
+Open Emulator Manager if is installed.
