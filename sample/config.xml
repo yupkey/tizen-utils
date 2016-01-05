@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://yourdomain/TizenUtilsApp" version="1.0.0" viewmodes="maximized">
-    <tizen:application id="a234567890.TizenUtilsApp" package="a234567890" required_version="2.3"/>
+    <tizen:application id="a234567890.TizenUtilsApp" package="a234567890" required_version="2.1"/>
     <content src="index.html"/>
     <icon src="icon.png"/>
     <name>TizenUtilsApp</name>
-
     <tizen:profile name="mobile"/>
     <feature name="http://tizen.org/feature/screen.size.all"/>
-
     <tizen:setting screen-orientation="auto-rotation" context-menu="disable" background-support="disable" encryption="disable" install-location="auto" hwkey-event="enable"/>
 </widget>
