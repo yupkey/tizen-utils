@@ -48,7 +48,7 @@ Create wgt file. Zips up `dirPath` and returns
 the wgt name into `callback` on success.
 
 * `dirPath`[optional] A path to dir of your app.
-* `wgtName`[optional] A widget name to be created. Default: (TizenApp_xxx.wgt).
+* `wgtName`[optional] A widget name to be created. Default: (curent_dir_name.wgt).
 * `callback`[optional] A function that is called on success. It returns `wgtName`.
 
 
