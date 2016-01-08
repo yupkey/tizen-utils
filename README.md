@@ -56,7 +56,7 @@ the wgt name into `callback` on success.
 
 Install widget on target from local directory `pathToWgt`.
 
-* `pathToWgt` A path to your wgt file on your desktop.
+* `pathToWgt` A path to your wgt file on your PC.
 
 
 ### uninstall(wgtId)
