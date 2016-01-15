@@ -1,13 +1,14 @@
 {
   "name": "tizen-utils",
-  "version": "1.2.16",
+  "version": "1.2.17",
   "description": "Helpful scripts for Tizen development",
   "license": "MIT",
   "main": "lib/tizen-utils.js",
   "files": [
     "lib",
     "bin",
-    "sample"
+    "sample",
+    "img"
   ],
   "bin": {
     "tizen": "./bin/tizen"
