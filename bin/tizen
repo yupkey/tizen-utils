@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 var tizen = require('../lib/tizen-utils');
-var log = require('../lib/log');
 var method = process.argv[2];
 var args = process.argv.slice(3);
 
