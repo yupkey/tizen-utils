@@ -1,4 +1,4 @@
 {
-    "emulator": "~/tizen-sdk/tools/emulator/bin/emulator-managerxxx",
+    "emulator": "~/tizen-sdk/tools/emulator/bin/emulator-manager",
     "cli": "~/tizen-sdk/tools/ide/bin/tizen"
 }
