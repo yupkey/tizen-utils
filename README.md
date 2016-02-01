@@ -15,6 +15,7 @@ $ cd /path/to/your/app/directory/
 
 $ tizen init //create config.xml
 $ tizen wgt //create wgt file
+$ tizen sign //create signed wgt file
 $ tizen install //install app/wgt on target
 $ tizen list //list all installed apps on target with wgtIds
 $ tizen run wgtId //start running app
@@ -22,6 +23,8 @@ $ tizen close wgtId //stop running app
 $ tizen uninstall wgtId //uninstall wgt from target
 $ tizen debug wgtId //start running app with debug mode
 $ tizen emulator //open Emulator Manager if installed
+$ tizen get //get value in tizen.json
+$ tizen set //set value in tizen.json
 ```
 
 ```javascript
@@ -50,6 +53,13 @@ the wgt name into `callback` on success.
 * `dirPath`[optional] A path to dir of your app.
 * `wgtName`[optional] A widget name to be created. Default: (curent_dir_name.wgt).
 * `callback`[optional] A function that is called on success. It returns `wgtName`.
+
+### sign(dirPath, callback)
+
+Create signed wgt file. It will automatically create certificate and security profile.
+
+* `dirPath`[optional] An absolute path to dir of your app.
+* `callback`[optional] A function that is called on success.
 
 
 ### install(pathToWgt)
