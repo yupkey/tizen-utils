@@ -18,12 +18,12 @@ $ tizen wgt //create wgt file
 $ tizen sign //create signed wgt file
 $ tizen install //install app/wgt on target
 $ tizen list //list all installed apps on target with wgtIds
-$ tizen run wgtId //start running app
-$ tizen close wgtId //stop running app
-$ tizen uninstall wgtId //uninstall wgt from target
-$ tizen debug wgtId //start running app with debug mode
+$ tizen run [wgtId] //start running app
+$ tizen close [wgtId] //stop running app
+$ tizen uninstall [wgtId] //uninstall wgt from target
+$ tizen debug [wgtId] //start running app with debug mode
 $ tizen emulator //open Emulator Manager if installed
-$ tizen get //get value in tizen.json
+$ tizen get //get value from tizen.json
 $ tizen set //set value in tizen.json
 ```
 
